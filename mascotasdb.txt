@@ -1,0 +1,9 @@
+Create database RelocaDB; 
+
+Use RelocaDB;
+
+CREATE TABLE Perro(DNI int, Nombre char(255), Raza char(255), Genero int, FechaNacimiento
+char(10), Foto VARCHAR(250) NOT NULL);
+
+CREATE TABLE users (id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, usuarioNombre VARCHAR (250) NOT NULL ,email 
+VARCHAR (250) NOT NULL, password VARCHAR (250) NOT NULL);
