@@ -5,5 +5,5 @@
 
   session_destroy();
 
-  header('Location: /mascotas');
+  header('Location: /VeterinariaProyecto');
 ?>

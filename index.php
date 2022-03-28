@@ -53,15 +53,7 @@
 
   <!-- LA VERSION LOGUEADO-->
 
-  <!--<header style=" color: rgba(61, 105, 202, 0.616); ">
-        <h1 class="titulo">REGISTRO CANINO 🐶 </h1>
-    </header>-->
 
-    <header class="header">
-        <a href="index.html">
-            <img class="header__logo" src="../img/logo.png" alt="Logotipo">
-        </a>
-    </header>
 
     <div class="nav-bg">
         <nav class="navegacion-principal contenedor">
@@ -123,9 +115,6 @@
 
   <?php else: ?>
 
-<header style=" color: rgba(61, 105, 202, 0.616); ">
-        <h1 class="titulo">REGISTRO CANINO 🐶 </h1>
-    </header>
     <div class="nav-bg">
         <nav class="navegacion-principal contenedor">
 

@@ -19,9 +19,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<header style=" color: rgba(61, 105, 202, 0.616); ">
-        <h1 class="titulo">REGISTRO CANINO 🐶 </h1>
-</header>
+
+
 <div class="nav-bg">
         <nav class="navegacion-principal contenedor">
             <a href="index.php">Inicio</a>
@@ -45,7 +44,7 @@
 
 <?php
 //conexion a la Base de datos (Servidor,usuario,password)
-$conn = mysqli_connect("localhost", "root","", "relocadb");
+$conn = mysqli_connect("localhost", "root","root", "relocadb");
 if (!$conn) {
 die("Error de conexion: " . mysqli_connect_error());
 }

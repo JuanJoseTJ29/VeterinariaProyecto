@@ -45,9 +45,7 @@
 
 <!-- LA VERSION LOGUEADO-->
 
-    <header>
-        <h1 class="titulo">REGISTRO CANINO 🐶 </h1>
-    </header>
+
     <div class="nav-bg">
         <nav class="navegacion-principal contenedor">
             
@@ -90,9 +88,7 @@
 
 <?php else: ?>
 
-<header style=" color: rgba(61, 105, 202, 0.616); ">
-        <h1 class="titulo">REGISTRO CANINO 🐶 </h1>
-    </header>
+
     <div class="nav-bg">
         <nav class="navegacion-principal contenedor">
 

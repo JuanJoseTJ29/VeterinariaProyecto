@@ -3,7 +3,7 @@
 session_start();
 
 if (isset($_SESSION['user_id'])) {
-  header('Location: /mascotas');
+  header('Location: /VeterinariaProyecto');
 }
 require 'database.php';
 
@@ -17,7 +17,7 @@ if (!empty($_POST['email']) && !empty($_POST['password'])) {
 
   if (count($results) > 0 && password_verify($_POST['password'], $results['password'])) {
     $_SESSION['user_id'] = $results['id'];
-    header("Location: /mascotas");
+    header("Location: /VeterinariaProyecto");
   } else {
     $message = 'LOS DATOS INGRESADOS FUERON INCORRECTOS';
   }
@@ -53,9 +53,7 @@ if (!empty($_POST['email']) && !empty($_POST['password'])) {
 
   </head>
   <body>
-  <header style=" color: rgba(61, 105, 202, 0.616); ">
-        <h1 class="titulo">REGISTRO CANINO 🐶 </h1>
-    </header>
+
     <div class="nav-bg">
         <nav class="navegacion-principal contenedor">
 
